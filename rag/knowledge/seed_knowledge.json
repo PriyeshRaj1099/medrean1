@@ -1,0 +1,167 @@
+[
+  {
+    "title": "Hemoglobin test (MedlinePlus)",
+    "topic": "hemoglobin",
+    "source_org": "MedlinePlus, U.S. National Library of Medicine (NIH)",
+    "url": "https://medlineplus.gov/lab-tests/hemoglobin-test/",
+    "publication_date": null,
+    "version": "1.0",
+    "license_note": "U.S. federal government health information (public-domain style). Short paraphrase written for MediLens AI, not a copy of the source.",
+    "keywords": ["hemoglobin", "hb", "hgb", "anemia"],
+    "content": "Hemoglobin is the iron-containing protein inside red blood cells that carries oxygen from the lungs to the rest of the body. A hemoglobin test measures how much hemoglobin is present in the blood. It is usually part of a complete blood count and is commonly ordered during routine health check-ups, before or after surgery, and when a person has symptoms such as unusual tiredness or shortness of breath.\n\nDoctors interpret a hemoglobin result together with other measurements (red blood cell count, hematocrit, MCV) and with the person's symptoms and history, because a single measurement has many possible explanations. Reference ranges vary by laboratory, by age and sometimes by sex and pregnancy status, which is why the range printed on the report matters. If a value falls outside the range shown on the report, it is a signal to discuss the result with a healthcare professional rather than a conclusion by itself."
+  },
+  {
+    "title": "Complete blood count (CBC) (MedlinePlus)",
+    "topic": "cbc",
+    "source_org": "MedlinePlus, U.S. National Library of Medicine (NIH)",
+    "url": "https://medlineplus.gov/lab-tests/complete-blood-count-cbc/",
+    "publication_date": null,
+    "version": "1.0",
+    "license_note": "U.S. federal government health information (public-domain style). Short paraphrase written for MediLens AI, not a copy of the source.",
+    "keywords": ["cbc", "wbc", "rbc", "platelets", "hematocrit", "mcv", "mch", "mchc"],
+    "content": "A complete blood count (CBC) measures several parts of blood: red blood cells (which carry oxygen), white blood cells (which fight infection), hemoglobin (the oxygen-carrying protein), hematocrit (the share of blood made of red cells), and platelets (which help blood to clot). MCV, MCH and MCHC are calculated indices that describe the size and hemoglobin content of red blood cells.\n\nEach part of the CBC has its own reference range, and laboratories print these on the report. A result outside the printed range can have many explanations - from normal biological variation and hydration to a wide range of health conditions - and is best understood together with the other CBC values, your symptoms and your medical history. Trends over time are often more informative than a single measurement.\n\nNote: values marked on your report outside the laboratory's range are not a diagnosis. Ask your healthcare professional what the pattern of values means for you."
+  },
+  {
+    "title": "Blood glucose test (MedlinePlus)",
+    "topic": "glucose",
+    "source_org": "MedlinePlus, U.S. National Library of Medicine (NIH)",
+    "url": "https://medlineplus.gov/lab-tests/blood-glucose-test/",
+    "publication_date": null,
+    "version": "1.0",
+    "license_note": "U.S. federal government health information (public-domain style). Short paraphrase written for MediLens AI, not a copy of the source.",
+    "keywords": ["glucose", "sugar", "fasting", "fbs", "ppbs", "rbs", "diabetes"],
+    "content": "Glucose is the main sugar the body uses for energy, and a blood glucose test measures how much is in the blood at the time of testing. Fasting glucose is measured after not eating for several hours; post-prandial glucose is measured a set time after a meal; random glucose can be measured at any time.\n\nResults depend strongly on when and what the person last ate, so laboratories print the conditions (for example 'fasting') together with the reference range on the report. A value outside the range printed on your report is interpreted by healthcare professionals together with other information such as HbA1c, symptoms, and medical history. A single glucose value is not a diagnosis of diabetes.\n\nIf you are checking your own report, compare the value with the fasting or post-meal condition stated on the report, and bring the whole report to your healthcare professional."
+  },
+  {
+    "title": "Hemoglobin A1c (HbA1c) test (MedlinePlus)",
+    "topic": "hba1c",
+    "source_org": "MedlinePlus, U.S. National Library of Medicine (NIH)",
+    "url": "https://medlineplus.gov/lab-tests/hemoglobin-a1c-hba1c-test/",
+    "publication_date": null,
+    "version": "1.0",
+    "license_note": "U.S. federal government health information (public-domain style). Short paraphrase written for MediLens AI, not a copy of the source.",
+    "keywords": ["hba1c", "a1c", "glycated hemoglobin", "average glucose"],
+    "content": "HbA1c (also written A1c or glycated hemoglobin) measures the share of hemoglobin that glucose has attached to over the lifespan of red blood cells. Because red blood cells live about three months, HbA1c reflects average blood glucose over roughly the previous two to three months rather than a single moment.\n\nLaboratories report HbA1c as a percentage (or mmol/mol), and the report shows the reference range that the laboratory uses. Some laboratories also print an estimated average glucose (eAG) alongside it. HbA1c is commonly used to monitor long-term glucose control; a value outside the printed range is interpreted by healthcare professionals together with your other results, symptoms and history.\n\nHbA1c can be affected by conditions that change red blood cell lifespan, such as some forms of anemia, so it is always interpreted in context."
+  },
+  {
+    "title": "Cholesterol levels (MedlinePlus)",
+    "topic": "lipid",
+    "source_org": "MedlinePlus, U.S. National Library of Medicine (NIH)",
+    "url": "https://medlineplus.gov/lab-tests/cholesterol-levels/",
+    "publication_date": null,
+    "version": "1.0",
+    "license_note": "U.S. federal government health information (public-domain style). Short paraphrase written for MediLens AI, not a copy of the source.",
+    "keywords": ["cholesterol", "hdl", "ldl", "triglycerides", "lipid profile", "vldl"],
+    "content": "A lipid profile measures fats in the blood: total cholesterol, HDL cholesterol, LDL cholesterol and triglycerides. Cholesterol travels in the blood inside particles called lipoproteins. HDL (high-density lipoprotein) carries cholesterol away from tissues towards the liver, while LDL (low-density lipoprotein) delivers cholesterol to tissues; VLDL mainly carries triglycerides.\n\nEach measurement has its own reference range, which the laboratory prints on the report. Lipid values are affected by recent meals (triglycerides especially), so fasting requirements are usually stated on the report. Healthcare professionals interpret the whole profile together - the individual values, their ratios, and the person's overall situation - rather than reading one number alone.\n\nA value outside the range on your report is not by itself a diagnosis; it is information to discuss with a qualified healthcare professional."
+  },
+  {
+    "title": "Triglycerides test (MedlinePlus)",
+    "topic": "triglycerides",
+    "source_org": "MedlinePlus, U.S. National Library of Medicine (NIH)",
+    "url": "https://medlineplus.gov/lab-tests/triglycerides-test/",
+    "publication_date": null,
+    "version": "1.0",
+    "license_note": "U.S. federal government health information (public-domain style). Short paraphrase written for MediLens AI, not a copy of the source.",
+    "keywords": ["triglycerides", "tgl", "tg", "fat"],
+    "content": "Triglycerides are a type of fat in the blood that the body uses to store and transport energy. They are usually measured as part of a lipid panel, often together with cholesterol measurements.\n\nTriglyceride levels rise after eating, so this test is commonly done after fasting, and the report states the conditions and the reference range the laboratory uses. Very high values can be re-checked or discussed with a healthcare professional, who interprets them together with other lipid values and your medical history.\n\nIf your result falls outside the range printed on the report, treat it as a prompt for a conversation with a healthcare professional rather than a conclusion."
+  },
+  {
+    "title": "Thyroid tests (MedlinePlus)",
+    "topic": "thyroid",
+    "source_org": "MedlinePlus, U.S. National Library of Medicine (NIH)",
+    "url": "https://medlineplus.gov/lab-tests/thyroid-tests/",
+    "publication_date": null,
+    "version": "1.0",
+    "license_note": "U.S. federal government health information (public-domain style). Short paraphrase written for MediLens AI, not a copy of the source.",
+    "keywords": ["tsh", "t3", "t4", "ft3", "ft4", "thyroid", "thyroxine", "triiodothyronine"],
+    "content": "The thyroid gland makes hormones - mainly thyroxine (T4) and triiodothyronine (T3) - that help regulate how the body uses energy. Thyroid testing usually measures TSH (thyroid-stimulating hormone, made by the pituitary gland) together with T4 and sometimes T3. Free T3/Free T4 measurements reflect the portion of the hormones that is not bound to carrier proteins in the blood.\n\nTSH and thyroid hormones influence each other: healthcare professionals usually interpret the pattern of TSH plus T3/T4 together, not each value alone. Reference ranges differ between laboratories and can vary with age, pregnancy and some medicines, which is why the range printed on your report is the relevant one.\n\nA value outside the printed range is information your healthcare professional will interpret with your symptoms and history."
+  },
+  {
+    "title": "Creatinine and BUN (kidney) tests (MedlinePlus)",
+    "topic": "kidney",
+    "source_org": "MedlinePlus, U.S. National Library of Medicine (NIH)",
+    "url": "https://medlineplus.gov/lab-tests/creatinine-test/",
+    "publication_date": null,
+    "version": "1.0",
+    "license_note": "U.S. federal government health information (public-domain style). Short paraphrase written for MediLens AI, not a copy of the source.",
+    "keywords": ["creatinine", "urea", "bun", "kidney", "uric acid", "egfr"],
+    "content": "The kidneys filter waste products from the blood. Creatinine is a waste product from normal muscle activity that healthy kidneys remove steadily, and BUN (blood urea nitrogen, or urea in many countries) is a waste product from the breakdown of protein. Measuring them helps healthcare professionals assess how well the kidneys are filtering.\n\nResults are influenced by muscle mass, hydration, diet and some medicines, so laboratories supply their own reference ranges on the report. Creatinine is often also used to calculate an estimated glomerular filtration rate (eGFR), which many reports include.\n\nA value outside the range printed on your report, or values that change over repeated tests, are best interpreted by a healthcare professional together with other results and your situation."
+  },
+  {
+    "title": "Liver function tests (MedlinePlus)",
+    "topic": "liver",
+    "source_org": "MedlinePlus, U.S. National Library of Medicine (NIH)",
+    "url": "https://medlineplus.gov/lab-tests/liver-function-tests/",
+    "publication_date": null,
+    "version": "1.0",
+    "license_note": "U.S. federal government health information (public-domain style). Short paraphrase written for MediLens AI, not a copy of the source.",
+    "keywords": ["alt", "sgpt", "ast", "sgot", "bilirubin", "alp", "albumin", "liver"],
+    "content": "Liver function tests are a group of blood tests that give clues about the state of the liver and bile ducts. They typically include enzymes such as ALT (SGPT) and AST (SGOT), alkaline phosphatase (ALP), the pigment bilirubin (total and sometimes direct/indirect fractions), and proteins such as albumin and total protein.\n\nEach measurement has its own reference range, printed by the laboratory. ALT and AST are enzymes found mainly inside liver cells; ALP is present in liver, bile ducts and bone; bilirubin comes from the normal breakdown of red blood cells and is processed by the liver. Because these markers overlap with other tissues and situations, healthcare professionals interpret the whole panel together - and often repeat it over time - rather than relying on a single value.\n\nA value outside the printed range is a signal to discuss the results with a healthcare professional, not a diagnosis in itself."
+  },
+  {
+    "title": "Sodium, potassium and calcium blood tests (MedlinePlus)",
+    "topic": "electrolytes",
+    "source_org": "MedlinePlus, U.S. National Library of Medicine (NIH)",
+    "url": "https://medlineplus.gov/lab-tests/sodium-blood-test/",
+    "publication_date": null,
+    "version": "1.0",
+    "license_note": "U.S. federal government health information (public-domain style). Short paraphrase written for MediLens AI, not a copy of the source.",
+    "keywords": ["sodium", "potassium", "calcium", "chloride", "electrolytes", "na", "k"],
+    "content": "Sodium, potassium, chloride and calcium are electrolytes - minerals that carry an electrical charge and help regulate fluid balance, nerve signals and muscle function, including the heartbeat. Calcium also plays a structural role in bones and teeth.\n\nThese measurements are commonly grouped into an electrolyte panel or basic metabolic panel. Laboratories provide their own reference ranges on the report; results can be influenced by hydration, diet, kidney function and some medicines. Because electrolyte values are tightly regulated by the body, changes outside the printed range are usually interpreted together with the other values on the panel and with your situation.\n\nIf any electrolyte value on your report is outside the range, ask your healthcare professional what the pattern means for you."
+  },
+  {
+    "title": "Vitamin D test (MedlinePlus)",
+    "topic": "vitamin_d",
+    "source_org": "MedlinePlus, U.S. National Library of Medicine (NIH)",
+    "url": "https://medlineplus.gov/lab-tests/vitamin-d-test/",
+    "publication_date": null,
+    "version": "1.0",
+    "license_note": "U.S. federal government health information (public-domain style). Short paraphrase written for MediLens AI, not a copy of the source.",
+    "keywords": ["vitamin d", "25-oh", "25 hydroxy vitamin d", "vit d", "vitamin d3"],
+    "content": "Vitamin D helps the body absorb calcium and supports bone and muscle health. The usual blood test measures 25-hydroxyvitamin D (25-OH vitamin D), the main circulating form of the vitamin. Levels depend partly on sunlight exposure, diet and supplements, and can change with the season.\n\nLaboratories and guidelines describe vitamin D status with thresholds that differ - often grouped as deficiency, insufficiency and sufficiency ranges. Because these cut-offs and units (ng/mL or nmol/L) vary between organisations, the ranges printed on your report are the relevant ones.\n\nA result outside the printed range is interpreted by a healthcare professional together with your diet, medical history and other tests. This tool explains what the values represent; it does not recommend supplements or doses."
+  },
+  {
+    "title": "Vitamin B tests (B12 and folate) (MedlinePlus)",
+    "topic": "vitamins",
+    "source_org": "MedlinePlus, U.S. National Library of Medicine (NIH)",
+    "url": "https://medlineplus.gov/lab-tests/vitamin-b-test/",
+    "publication_date": null,
+    "version": "1.0",
+    "license_note": "U.S. federal government health information (public-domain style). Short paraphrase written for MediLens AI, not a copy of the source.",
+    "keywords": ["vitamin b12", "b12", "cobalamin", "folate", "folic acid", "vitamin b9", "b vitamins"],
+    "content": "Vitamin B12 (cobalamin) and folate (vitamin B9) are B vitamins that the body needs to make healthy blood cells and to keep the nervous system working normally. A vitamin B test measures the amount of one or more of these vitamins in blood or urine, and B12 and folate are often measured together because a shortage of either can cause similar problems.\n\nTesting is usually done when symptoms or risk factors suggest a shortage - for example unusual tiredness, tingling or numb hands and feet, or conditions and diets that change how B vitamins are absorbed. Levels are also influenced by diet, supplements, pregnancy, some medicines and other health conditions.\n\nLaboratories supply their own reference ranges, and experts note that normal levels for some B vitamins are not firmly agreed, so the range printed on the report - and the pattern across results - are what matter. A result outside the printed range is interpreted by a healthcare professional together with your diet, history and other tests. This tool explains what the values represent; it does not recommend supplements or doses."
+  },
+  {
+    "title": "Urinalysis (urine test) (MedlinePlus)",
+    "topic": "urinalysis",
+    "source_org": "MedlinePlus, U.S. National Library of Medicine (NIH)",
+    "url": "https://medlineplus.gov/urinalysis.html",
+    "publication_date": null,
+    "version": "1.0",
+    "license_note": "U.S. federal government health information (public-domain style). Short paraphrase written for MediLens AI, not a copy of the source.",
+    "keywords": ["urinalysis", "urine test", "urine analysis", "urine routine", "ua", "dipstick", "ketones", "protein in urine"],
+    "content": "A urinalysis is a group of checks done on a urine sample. It commonly looks at the color, clarity and odor of the urine, its acidity (pH), and whether substances that are not normally present appear - such as blood, protein, glucose, ketones or bilirubin - along with cells, crystals, casts and any bacteria.\n\nUrine tests are often used to look for urinary tract infections, kidney problems or diabetes, during routine check-ups, before surgery, during pregnancy, or to monitor a known condition and its treatment. Findings are reported against the laboratory's own reference values, and expected ranges for some observations differ with age, sex, hydration and the method used.\n\nA finding outside the expected range is not a diagnosis by itself: it is interpreted together with your symptoms, medical history and other tests. Bring the full report to a healthcare professional and ask what the pattern of findings means for you."
+  },
+  {
+    "title": "CRP and ESR (inflammation markers) (MedlinePlus)",
+    "topic": "inflammation",
+    "source_org": "MedlinePlus, U.S. National Library of Medicine (NIH)",
+    "url": "https://medlineplus.gov/lab-tests/c-reactive-protein-crp-test/",
+    "publication_date": null,
+    "version": "1.0",
+    "license_note": "U.S. federal government health information (public-domain style). Short paraphrase written for MediLens AI, not a copy of the source.",
+    "keywords": ["crp", "esr", "inflammation", "sedimentation"],
+    "content": "C-reactive protein (CRP) is a protein made by the liver that can rise when there is inflammation somewhere in the body. The erythrocyte sedimentation rate (ESR) is a general test that can also rise with inflammation; it measures how quickly red blood cells settle in a tube.\n\nBoth markers are non-specific: many different situations - including common infections and other conditions - can move them, and normal results do not exclude anything by themselves. Laboratories print their own reference ranges and units (CRP in mg/L or mg/dL, ESR in mm/hour).\n\nBecause of this non-specificity, healthcare professionals interpret these values together with symptoms, examination and other test results."
+  },
+  {
+    "title": "How to understand your lab results (MedlinePlus)",
+    "topic": "general",
+    "source_org": "MedlinePlus, U.S. National Library of Medicine (NIH)",
+    "url": "https://medlineplus.gov/lab-tests/how-to-understand-your-lab-results/",
+    "publication_date": null,
+    "version": "1.0",
+    "license_note": "U.S. federal government health information (public-domain style). Short paraphrase written for MediLens AI, not a copy of the source.",
+    "keywords": ["reference range", "lab results", "interpretation", "normal range"],
+    "content": "A laboratory report usually lists each test, the measured value, its unit, and a reference range - the interval that covers most results from a broadly healthy comparison group, as defined by that laboratory. Reference ranges differ between laboratories because methods, equipment and populations differ, so the range printed on your own report is the relevant one.\n\nA result outside the printed reference range does not automatically mean something is wrong, and a result inside it does not guarantee health: results are interpreted together with symptoms, medical history, examination and - often - repeat measurements over time. Biological variation, hydration, recent meals, time of day and the testing method can all move a value.\n\nWhen you review a report, useful questions for a healthcare professional include: what does this value measure, does it need to be repeated, how does it relate to my other results, and what would change the plan?"
+  }
+]

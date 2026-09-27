@@ -1,0 +1,32 @@
+# MediLens AI — backend runtime dependencies
+# Install:  pip install -r backend/requirements.txt
+fastapi>=0.115.0
+uvicorn[standard]>=0.32.0
+pydantic>=2.10.0
+pydantic-settings>=2.6.0
+SQLAlchemy>=2.0.36
+alembic>=1.14.0
+greenlet>=3.1.0
+
+# Database drivers
+#   asyncpg    -> PostgreSQL (production)
+#   aiosqlite  -> SQLite (local development / tests)
+asyncpg>=0.30.0
+aiosqlite>=0.20.0
+
+# Auth / security
+PyJWT>=2.10.0
+bcrypt>=4.2.0
+python-multipart>=0.0.17
+
+# AI / HTTP
+httpx>=0.27.0
+
+# Document processing
+PyMuPDF>=1.24.0
+Pillow>=11.0.0
+pytesseract>=0.3.13          # requires the Tesseract binary (optional at runtime)
+
+# PDF export
+fpdf2>=2.8.0
+email-validator>=2.2.0

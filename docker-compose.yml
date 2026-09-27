@@ -1,0 +1,94 @@
+# MediLens AI — full local stack: PostgreSQL + FastAPI backend + Next.js frontend
+#
+#   docker compose up --build
+#
+# Frontend: http://localhost:3000   Backend API: http://localhost:8000/api
+# Health:   http://localhost:8000/health
+#
+# Notes
+#   * ENVIRONMENT defaults to "development" here so the refresh cookie works
+#     over plain HTTP on localhost. Behind TLS (real deployments) set
+#     ENVIRONMENT=production — the refresh cookie then becomes Secure-only.
+#   * AI_PROVIDER / EMBEDDING_PROVIDER default to the offline "mock" engines,
+#     so the whole stack runs without any API keys. Override them below or via
+#     a root .env file (see .env.example) to use a real provider.
+#   * JWT_SECRET must be set to a long random value for anything beyond local
+#     testing:  python -c "import secrets; print(secrets.token_urlsafe(64))"
+
+name: medilens
+
+services:
+  db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: medilens
+      POSTGRES_PASSWORD: medilens
+      POSTGRES_DB: medilens
+    volumes:
+      - db_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U medilens -d medilens"]
+      interval: 5s
+      timeout: 5s
+      retries: 12
+
+  backend:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    environment:
+      APP_NAME: MediLens AI
+      ENVIRONMENT: ${ENVIRONMENT:-development}
+      DEBUG: ${DEBUG:-false}
+      FRONTEND_URL: http://localhost:3000
+      CORS_ORIGINS: http://localhost:3000
+      DATABASE_URL: postgresql+asyncpg://medilens:medilens@db:5432/medilens
+      AUTO_CREATE_SCHEMA: "false"
+      JWT_SECRET: ${JWT_SECRET:-change-me-to-a-long-random-value}
+      AUTH_DEV_RETURN_RESET_TOKEN: ${AUTH_DEV_RETURN_RESET_TOKEN:-false}
+      STORAGE_BACKEND: local
+      STORAGE_LOCAL_DIR: /app/backend/var/uploads
+      OCR_PROVIDER: tesseract
+      AI_PROVIDER: ${AI_PROVIDER:-mock}
+      AI_API_KEY: ${AI_API_KEY:-}
+      AI_BASE_URL: ${AI_BASE_URL:-https://api.openai.com/v1}
+      AI_MODEL: ${AI_MODEL:-gpt-4o-mini}
+      EMBEDDING_PROVIDER: ${EMBEDDING_PROVIDER:-mock}
+      EMBEDDING_API_KEY: ${EMBEDDING_API_KEY:-}
+      EMBEDDING_MODEL: ${EMBEDDING_MODEL:-text-embedding-3-small}
+      LOG_JSON: "true"
+      LOGGING_LEVEL: ${LOGGING_LEVEL:-INFO}
+    volumes:
+      - backend_var:/app/backend/var
+    ports:
+      - "8000:8000"
+    depends_on:
+      db:
+        condition: service_healthy
+    healthcheck:
+      test:
+        [
+          "CMD-SHELL",
+          "python -c \"import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/health')\"",
+        ]
+      interval: 10s
+      timeout: 5s
+      retries: 12
+      start_period: 20s
+
+  frontend:
+    build:
+      context: .
+      dockerfile: frontend/Dockerfile
+      args:
+        # Compiled into the /api/* rewrite — must be reachable from this container.
+        BACKEND_URL: http://backend:8000
+    ports:
+      - "3000:3000"
+    depends_on:
+      backend:
+        condition: service_healthy
+
+volumes:
+  db_data:
+  backend_var:

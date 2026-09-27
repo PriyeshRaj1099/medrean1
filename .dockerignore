@@ -1,0 +1,31 @@
+# Shared Docker build context exclusions (backend + frontend build from the
+# repository root — see backend/Dockerfile and frontend/Dockerfile).
+.git
+.github
+.venv
+.pytest_cache
+.scratch
+__pycache__
+**/__pycache__
+**/*.pyc
+**/*.pyo
+
+# Runtime data — never bake uploads, exports or local databases into images
+backend/var
+storage
+*.db
+*.sqlite3
+
+# Frontend build artifacts (rebuilt inside the image)
+frontend/node_modules
+frontend/.next
+
+# Local environment files — configuration is passed via docker-compose env
+.env
+.env.local
+.env.*.local
+
+# Documentation and editor files
+.vscode
+.idea
+*.log
